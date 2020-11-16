@@ -1,4 +1,4 @@
-# pataquÁ's <a href="https://www.betrybe.com/" target='_new'><img src="https://app.betrybe.com/assets/images/trybe-logo.png" alt="Trybe" width=100></a> exercises repository
+# <a href="https://www.betrybe.com/" target='_new'><img src="https://app.betrybe.com/assets/images/trybe-logo.png" alt="Trybe" width=100></a> exercises repository
 
 This repository is intended for exercises performed in [Trybe](https://www.betrybe.com/)'s Web Development course.
 
