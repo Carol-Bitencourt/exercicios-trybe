@@ -51,9 +51,14 @@
   paragraph.innerText = 'Me vejo morando num país que tenha consciência ambiental e leve a sério suas políticas públicas.';   
  }
  changeText();
- 
+
  // 2) Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).
- 
+ function changeSquareColorToGreen() {
+  let square = document.getElementsByClassName('main-content')[0];
+  square.style.backgroundColor = 'rgb(76,164,109)';
+ }
+ changeSquareColorToGreen();
+
  // 3) Crie uma função que mude a cor do quadrado vermelho para branco.
  
  // 4) Crie uma função que corrija o texto da tag <h1>.
