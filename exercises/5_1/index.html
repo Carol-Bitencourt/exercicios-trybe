@@ -46,7 +46,7 @@
         - document.getElementsByTagName() */
 
  // 1) Crie uma função que mude o texto na tag <p> para uma descrição de como você se vê daqui a 2 anos.
- function changeText(params) {
+ function changeText() {
   let paragraph = document.getElementsByTagName('p')[1];
   paragraph.innerText = 'Me vejo morando num país que tenha consciência ambiental e leve a sério suas políticas públicas.';   
  }
@@ -60,9 +60,15 @@
  changeSquareColorToGreen();
 
  // 3) Crie uma função que mude a cor do quadrado vermelho para branco.
- 
+ function changeSquareColorToWhite() {
+   let square = document.getElementsByClassName('center-content')[0];
+   square.style.backgroundColor = 'rgb(255,255,255)';   
+ }
+ changeSquareColorToWhite();
+
  // 4) Crie uma função que corrija o texto da tag <h1>.
- 
+
+
  // 5) Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
  
  // 6) Crie uma função que exiba o conteúdo de todas as tags <p> no console. */
